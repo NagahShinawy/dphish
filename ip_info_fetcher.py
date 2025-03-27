@@ -256,7 +256,6 @@ async def main():
 
             # Check for exit commands
             if user_input.lower() in EXITING_COMMANDS:
-                print(GOODBYE_MSG)
                 print("\n" + GOODBYE_MSG)
                 break
 
