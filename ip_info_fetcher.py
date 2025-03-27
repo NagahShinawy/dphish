@@ -252,7 +252,7 @@ async def main():
     print(WELCOME_MSG)
     while True:
         try:
-            user_input = input(PROMPT_MSG).strip()
+            user_input = input(f"{PROMPT_MSG} or q, exit, quit to finish").strip()
 
             # Check for exit commands
             if user_input.lower() in EXITING_COMMANDS:
